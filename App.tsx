@@ -1,11 +1,12 @@
 import * as React from 'react';
-import { Platform, SafeAreaView, StatusBar, StyleSheet, Text } from 'react-native';
+import { Platform, SafeAreaView, StatusBar, StyleSheet } from 'react-native';
 import { colors } from './src/utils/colors';
+import { Focus } from './src/utils/Focus';
 
 export default function App() {
 	return (
 		<SafeAreaView style={styles.container}>
-			<Text style={styles.text}>Hello World</Text>
+			<Focus />
 		</SafeAreaView>
 	);
 }
